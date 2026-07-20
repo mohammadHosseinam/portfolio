@@ -20,7 +20,7 @@ function Header() {
       </Link>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex items-center gap-32">
+      <div className="hidden md:flex items-center gap-[336px]">
         <nav className="flex gap-8">
           <HashLink
             smooth

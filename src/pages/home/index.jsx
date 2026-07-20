@@ -121,9 +121,9 @@ function Home() {
                         <ContactButton Icon={<DribbbleIcon />} linkTo={"https://dribbble.com/mohosseim"} />
                         <ContactButton Icon={<BehanceIcon />} linkTo={"https://dribbble.com/mohosseim"} />
                     </div>
-                    <Link to={"tel:+989032153600"}>
-                        <img src={ContactBanner} className="hidden md:block w-full max-w-4xl" alt="ContactBanner" />
-                        <img src={MobileContactBanner} className="block md:hidden w-full max-w-4xl mt-8" alt="ContactBanner" />
+                    <Link className='w-full' to={"tel:+989032153600"}>
+                        <img src={ContactBanner} className="hidden md:block w-full mt-8" alt="ContactBanner" />
+                        <img src={MobileContactBanner} className="block md:hidden w-full max-w-2xl mx-auto mt-8" alt="ContactBanner" />
                     </Link>
                 </div>
             </section>
