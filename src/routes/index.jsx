@@ -1,4 +1,5 @@
 import Home from "../pages/home";
+import Rostino from "../pages/rostino";
 
 export const routes = {
     home:{
@@ -6,5 +7,9 @@ export const routes = {
         path:'/',
         element:<Home/>
     },
-   
+    rostino:{
+        id:'2',
+        path:'/casestudy/rostino',
+        element:<Rostino/>
+    },
 }

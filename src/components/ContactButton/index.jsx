@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function ContactButton({ Icon }) {
+function ContactButton({ Icon , linkTo }) {
   return (
-    <div>
+    <Link to={linkTo}>
       <div className="relative inline-flex items-center justify-center bg-[#FFF0EA] w-20 h-20 rounded-[40px] border-2 border-[#212121] text-[#212121]">
         {Icon}
 
@@ -10,7 +11,7 @@ function ContactButton({ Icon }) {
         {Icon}
         </span>
       </div>
-    </div>
+    </Link>
   );
 }
 

@@ -5,8 +5,10 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/portfolio/',
   plugins: [
     react(),
+    
     tailwindcss(),
     babel({ presets: [reactCompilerPreset()] })
   ],
